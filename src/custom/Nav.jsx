@@ -11,7 +11,7 @@ const Nav = () => {
 
         <div className="container-fluid">
 
-          <Link className="navbar-brand" to="#">Production</Link>
+          <Link className="navbar-brand" to="/">Production</Link>
 
 
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
@@ -34,7 +34,7 @@ const Nav = () => {
 
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li className="nav-item h4 accout"><Link className="nav-link " to="/userpage">Account</Link> <div><button className='btn1 ' >LogIN</button></div></li>
+              <li className="nav-item h4 accout"><Link className="nav-link " to="/userpage">Account</Link></li>
               <li className="nav-item"><Link className="nav-link" to="#"><FaRegHeart className='h3' /></Link></li>
               <li className="nav-item"><Link className="nav-link" to="/cardpage"><AiOutlineShoppingCart className='h3' /></Link></li>
             </ul>
