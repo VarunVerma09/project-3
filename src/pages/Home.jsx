@@ -1,4 +1,5 @@
 import React from 'react';
+import onepice from '../data/one';
 import Crousel from '../custom/Crousel';
 import img1 from '../assets/img/1img/1pc.jpg'
 import img2 from '../assets/img/1img/2pc.jpg'
@@ -46,7 +47,8 @@ const Home = () => {
 
                 </main>
 
-                <main><div></div></main>
+                <main><div>
+                    </div></main>
 
 
             </section>
